@@ -26,7 +26,7 @@ def update_checkout(attendance_id):
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="HKtcc301276",
+        password="xxxxxxx",
         database="attendance_system"
     )
     cursor = conn.cursor()
@@ -43,7 +43,7 @@ def log_attendance(user_id, name, work_card_id):
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="HKtcc301276",
+        password="xxxxxxxxx",
         database="attendance_system"
     )
     cursor = conn.cursor()
