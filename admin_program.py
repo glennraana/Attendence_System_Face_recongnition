@@ -94,7 +94,7 @@ class AdminApp:
                 conn = mysql.connector.connect(
                     host="localhost",
                     user="root",
-                    password="HKtcc301276",
+                    password="xxxxxx",
                     database="attendance_system"
                 )
                 cursor = conn.cursor()
