@@ -7,7 +7,7 @@ def get_last_attendance(user_id):
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="HKtcc301276",
+        password="xxxxxxxxx",
         database="attendance_system"
     )
     cursor = conn.cursor(dictionary=True)
@@ -60,7 +60,7 @@ def get_user_by_face(face_encoding):
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="HKtcc301276",
+        password="xxxxxxx",
         database="attendance_system"
     )
     cursor = conn.cursor(dictionary=True)
